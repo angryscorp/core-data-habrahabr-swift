@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Automatic">
-    <entity name="Customer" syncable="YES">
-        <attribute name="info" attributeType="String" syncable="YES"/>
-        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    <entity name="Customer" representedClassName=".Customer" syncable="YES">
+        <attribute name="info" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
         <relationship name="orders" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Order" inverseName="customer" inverseEntity="Order" syncable="YES"/>
     </entity>
-    <entity name="Order" syncable="YES">
+    <entity name="Order" representedClassName=".Order" syncable="YES">
         <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="made" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="paid" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
         <relationship name="customer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Customer" inverseName="orders" inverseEntity="Customer" syncable="YES"/>
         <relationship name="rowsOfOrder" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RowOfOrder" inverseName="order" inverseEntity="RowOfOrder" syncable="YES"/>
     </entity>
-    <entity name="RowOfOrder" syncable="YES">
+    <entity name="RowOfOrder" representedClassName=".RowOfOrder" syncable="YES">
         <attribute name="sum" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
         <relationship name="order" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Order" inverseName="rowsOfOrder" inverseEntity="Order" syncable="YES"/>
         <relationship name="service" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Service" inverseName="rowsOfOrders" inverseEntity="Service" syncable="YES"/>
     </entity>
-    <entity name="Service" syncable="YES">
+    <entity name="Service" representedClassName=".Service" syncable="YES">
         <attribute name="info" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" attributeType="String" syncable="YES"/>
         <relationship name="rowsOfOrders" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RowOfOrder" inverseName="service" inverseEntity="RowOfOrder" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Customer" positionX="-63" positionY="-18" width="128" height="30"/>
-        <element name="Service" positionX="-54" positionY="-9" width="128" height="30"/>
-        <element name="Order" positionX="-36" positionY="0" width="128" height="30"/>
-        <element name="RowOfOrder" positionX="-18" positionY="18" width="128" height="30"/>
+        <element name="Customer" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="Order" positionX="-36" positionY="0" width="128" height="120"/>
+        <element name="RowOfOrder" positionX="-18" positionY="18" width="128" height="90"/>
+        <element name="Service" positionX="-54" positionY="-9" width="128" height="90"/>
     </elements>
 </model>

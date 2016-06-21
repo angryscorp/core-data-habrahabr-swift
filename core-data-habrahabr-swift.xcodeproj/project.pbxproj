@@ -13,6 +13,15 @@
 		3A4C1D861D0FFE95003D0916 /* core_data_habrahabr_swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A4C1D841D0FFE95003D0916 /* core_data_habrahabr_swift.xcdatamodeld */; };
 		3A4C1D881D0FFE95003D0916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4C1D871D0FFE95003D0916 /* Assets.xcassets */; };
 		3A4C1D8B1D0FFE95003D0916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4C1D891D0FFE95003D0916 /* LaunchScreen.storyboard */; };
+		3AD3BF851D19354900BE8999 /* RowOfOrder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3BF7D1D19354900BE8999 /* RowOfOrder+CoreDataProperties.swift */; };
+		3AD3BF861D19354900BE8999 /* RowOfOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3BF7E1D19354900BE8999 /* RowOfOrder.swift */; };
+		3AD3BF871D19354900BE8999 /* Customer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3BF7F1D19354900BE8999 /* Customer+CoreDataProperties.swift */; };
+		3AD3BF881D19354900BE8999 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3BF801D19354900BE8999 /* Customer.swift */; };
+		3AD3BF891D19354900BE8999 /* Order+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3BF811D19354900BE8999 /* Order+CoreDataProperties.swift */; };
+		3AD3BF8A1D19354900BE8999 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3BF821D19354900BE8999 /* Order.swift */; };
+		3AD3BF8B1D19354900BE8999 /* Service+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3BF831D19354900BE8999 /* Service+CoreDataProperties.swift */; };
+		3AD3BF8C1D19354900BE8999 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3BF841D19354900BE8999 /* Service.swift */; };
+		3AD3BF8E1D19617400BE8999 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3BF8D1D19617400BE8999 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		3A4C1D871D0FFE95003D0916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A4C1D8A1D0FFE95003D0916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A4C1D8C1D0FFE95003D0916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AD3BF7D1D19354900BE8999 /* RowOfOrder+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RowOfOrder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3AD3BF7E1D19354900BE8999 /* RowOfOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowOfOrder.swift; sourceTree = "<group>"; };
+		3AD3BF7F1D19354900BE8999 /* Customer+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Customer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3AD3BF801D19354900BE8999 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		3AD3BF811D19354900BE8999 /* Order+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3AD3BF821D19354900BE8999 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		3AD3BF831D19354900BE8999 /* Service+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Service+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3AD3BF841D19354900BE8999 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		3AD3BF8D1D19617400BE8999 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +58,15 @@
 		3A4C1D711D0FFE94003D0916 = {
 			isa = PBXGroup;
 			children = (
+				3AD3BF8D1D19617400BE8999 /* CoreDataManager.swift */,
+				3AD3BF7D1D19354900BE8999 /* RowOfOrder+CoreDataProperties.swift */,
+				3AD3BF7E1D19354900BE8999 /* RowOfOrder.swift */,
+				3AD3BF7F1D19354900BE8999 /* Customer+CoreDataProperties.swift */,
+				3AD3BF801D19354900BE8999 /* Customer.swift */,
+				3AD3BF811D19354900BE8999 /* Order+CoreDataProperties.swift */,
+				3AD3BF821D19354900BE8999 /* Order.swift */,
+				3AD3BF831D19354900BE8999 /* Service+CoreDataProperties.swift */,
+				3AD3BF841D19354900BE8999 /* Service.swift */,
 				3A4C1D7C1D0FFE95003D0916 /* core-data-habrahabr-swift */,
 				3A4C1D7B1D0FFE95003D0916 /* Products */,
 			);
@@ -139,9 +166,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AD3BF891D19354900BE8999 /* Order+CoreDataProperties.swift in Sources */,
 				3A4C1D801D0FFE95003D0916 /* ViewController.swift in Sources */,
+				3AD3BF881D19354900BE8999 /* Customer.swift in Sources */,
+				3AD3BF8A1D19354900BE8999 /* Order.swift in Sources */,
 				3A4C1D861D0FFE95003D0916 /* core_data_habrahabr_swift.xcdatamodeld in Sources */,
+				3AD3BF851D19354900BE8999 /* RowOfOrder+CoreDataProperties.swift in Sources */,
+				3AD3BF8E1D19617400BE8999 /* CoreDataManager.swift in Sources */,
+				3AD3BF8B1D19354900BE8999 /* Service+CoreDataProperties.swift in Sources */,
 				3A4C1D7E1D0FFE95003D0916 /* AppDelegate.swift in Sources */,
+				3AD3BF8C1D19354900BE8999 /* Service.swift in Sources */,
+				3AD3BF861D19354900BE8999 /* RowOfOrder.swift in Sources */,
+				3AD3BF871D19354900BE8999 /* Customer+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +327,7 @@
 				3A4C1D911D0FFE95003D0916 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

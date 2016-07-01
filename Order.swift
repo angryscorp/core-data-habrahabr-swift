@@ -11,4 +11,19 @@ class Order: NSManagedObject {
         self.init(entity: CoreDataManager.instance.entityForName("Order"), insertIntoManagedObjectContext: CoreDataManager.instance.managedObjectContext)
     }
 
+    class func getRowsOfOrder(order: Order) -> NSFetchedResultsController {
+        
+        let fetchRequest = NSFetchRequest(entityName: "RowOfOrder")
+        
+        let sortDescriptor = NSSortDescriptor(key: "service.name", ascending: true)
+        fetchRequest.sortDescriptors = [sortDescriptor]
+        
+        let predicate = NSPredicate(format: "%K == %@", "order", order)
+        fetchRequest.predicate = predicate
+        
+        let fetchedResultsController = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: CoreDataManager.instance.managedObjectContext, sectionNameKeyPath: nil, cacheName: nil)
+        
+        return fetchedResultsController
+    }
+    
 }

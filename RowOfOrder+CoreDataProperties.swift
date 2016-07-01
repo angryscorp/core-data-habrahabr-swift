@@ -12,7 +12,7 @@ import CoreData
 extension RowOfOrder {
 
     @NSManaged var sum: Float
-    @NSManaged var order: NSManagedObject?
-    @NSManaged var service: NSManagedObject?
+    @NSManaged var order: Order?
+    @NSManaged var service: Service?
 
 }

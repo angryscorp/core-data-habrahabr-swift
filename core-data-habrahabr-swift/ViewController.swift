@@ -1,10 +1,6 @@
 //
 //  ViewController.swift
 //  core-data-habrahabr-swift
-//
-//  Created by Anton Karpov on 14.06.16.
-//  Copyright © 2016 Antony Karpov. All rights reserved.
-//
 
 import UIKit
 

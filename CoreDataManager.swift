@@ -11,7 +11,19 @@ class CoreDataManager {
     func entityForName(entityName: String) -> NSEntityDescription {
         return NSEntityDescription.entityForName(entityName, inManagedObjectContext: self.managedObjectContext)!
     }
-    
+
+    // Fetched Results Controller for Entity Name
+    func fetchedResultsController(entityName: String, keyForSort: String) -> NSFetchedResultsController {
+        
+        let fetchRequest = NSFetchRequest(entityName: entityName)
+        let sortDescriptor = NSSortDescriptor(key: keyForSort, ascending: true)
+        fetchRequest.sortDescriptors = [sortDescriptor]
+        
+        let fetchedResultsController = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: CoreDataManager.instance.managedObjectContext, sectionNameKeyPath: nil, cacheName: nil)
+        
+        return fetchedResultsController
+    }
+
     // MARK: - Core Data stack
     
     lazy var applicationDocumentsDirectory: NSURL = {

@@ -11,7 +11,7 @@ import CoreData
 
 extension Order {
 
-    @NSManaged var date: NSTimeInterval
+    @NSManaged var date: NSDate
     @NSManaged var made: Bool
     @NSManaged var paid: Bool
     @NSManaged var customer: Customer?

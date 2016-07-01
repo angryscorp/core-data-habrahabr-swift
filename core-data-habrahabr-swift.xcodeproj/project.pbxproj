@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A36AB451D250B4A00CEDB17 /* ReportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36AB441D250B4A00CEDB17 /* ReportTableViewController.swift */; };
 		3A4C1D7E1D0FFE95003D0916 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4C1D7D1D0FFE95003D0916 /* AppDelegate.swift */; };
 		3A4C1D801D0FFE95003D0916 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4C1D7F1D0FFE95003D0916 /* ViewController.swift */; };
 		3A4C1D831D0FFE95003D0916 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4C1D811D0FFE95003D0916 /* Main.storyboard */; };
 		3A4C1D861D0FFE95003D0916 /* core_data_habrahabr_swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A4C1D841D0FFE95003D0916 /* core_data_habrahabr_swift.xcdatamodeld */; };
 		3A4C1D881D0FFE95003D0916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4C1D871D0FFE95003D0916 /* Assets.xcassets */; };
 		3A4C1D8B1D0FFE95003D0916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4C1D891D0FFE95003D0916 /* LaunchScreen.storyboard */; };
+		3AB31F9E1D229DC7009950F3 /* RowOfOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB31F9D1D229DC6009950F3 /* RowOfOrderViewController.swift */; };
 		3AD3BF851D19354900BE8999 /* RowOfOrder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3BF7D1D19354900BE8999 /* RowOfOrder+CoreDataProperties.swift */; };
 		3AD3BF861D19354900BE8999 /* RowOfOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3BF7E1D19354900BE8999 /* RowOfOrder.swift */; };
 		3AD3BF871D19354900BE8999 /* Customer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3BF7F1D19354900BE8999 /* Customer+CoreDataProperties.swift */; };
@@ -22,9 +24,16 @@
 		3AD3BF8B1D19354900BE8999 /* Service+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3BF831D19354900BE8999 /* Service+CoreDataProperties.swift */; };
 		3AD3BF8C1D19354900BE8999 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3BF841D19354900BE8999 /* Service.swift */; };
 		3AD3BF8E1D19617400BE8999 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3BF8D1D19617400BE8999 /* CoreDataManager.swift */; };
+		3AE2C97F1D1C04F400E94284 /* CustomersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE2C97E1D1C04F300E94284 /* CustomersTableViewController.swift */; };
+		3AE2C9821D1C330E00E94284 /* CustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE2C9811D1C330E00E94284 /* CustomerViewController.swift */; };
+		3AE2C9851D1D543D00E94284 /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE2C9841D1D543D00E94284 /* ServicesTableViewController.swift */; };
+		3AE2C9871D1D57B400E94284 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE2C9861D1D57B400E94284 /* ServiceViewController.swift */; };
+		3AE2C98A1D1D728F00E94284 /* OrdersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE2C9891D1D728F00E94284 /* OrdersTableViewController.swift */; };
+		3AE2C98C1D1D72A600E94284 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE2C98B1D1D72A600E94284 /* OrderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A36AB441D250B4A00CEDB17 /* ReportTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportTableViewController.swift; sourceTree = "<group>"; };
 		3A4C1D7A1D0FFE95003D0916 /* core-data-habrahabr-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "core-data-habrahabr-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A4C1D7D1D0FFE95003D0916 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A4C1D7F1D0FFE95003D0916 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,15 +42,22 @@
 		3A4C1D871D0FFE95003D0916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A4C1D8A1D0FFE95003D0916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A4C1D8C1D0FFE95003D0916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3AD3BF7D1D19354900BE8999 /* RowOfOrder+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RowOfOrder+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		3AD3BF7E1D19354900BE8999 /* RowOfOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowOfOrder.swift; sourceTree = "<group>"; };
-		3AD3BF7F1D19354900BE8999 /* Customer+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Customer+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		3AD3BF801D19354900BE8999 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
-		3AD3BF811D19354900BE8999 /* Order+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		3AD3BF821D19354900BE8999 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
-		3AD3BF831D19354900BE8999 /* Service+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Service+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		3AD3BF841D19354900BE8999 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
-		3AD3BF8D1D19617400BE8999 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		3AB31F9D1D229DC6009950F3 /* RowOfOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowOfOrderViewController.swift; sourceTree = "<group>"; };
+		3AD3BF7D1D19354900BE8999 /* RowOfOrder+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "RowOfOrder+CoreDataProperties.swift"; path = "../RowOfOrder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3AD3BF7E1D19354900BE8999 /* RowOfOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RowOfOrder.swift; path = ../RowOfOrder.swift; sourceTree = "<group>"; };
+		3AD3BF7F1D19354900BE8999 /* Customer+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Customer+CoreDataProperties.swift"; path = "../Customer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3AD3BF801D19354900BE8999 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Customer.swift; path = ../Customer.swift; sourceTree = "<group>"; };
+		3AD3BF811D19354900BE8999 /* Order+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Order+CoreDataProperties.swift"; path = "../Order+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3AD3BF821D19354900BE8999 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = ../Order.swift; sourceTree = "<group>"; };
+		3AD3BF831D19354900BE8999 /* Service+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Service+CoreDataProperties.swift"; path = "../Service+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3AD3BF841D19354900BE8999 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Service.swift; path = ../Service.swift; sourceTree = "<group>"; };
+		3AD3BF8D1D19617400BE8999 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataManager.swift; path = ../CoreDataManager.swift; sourceTree = "<group>"; };
+		3AE2C97E1D1C04F300E94284 /* CustomersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomersTableViewController.swift; path = ../CustomersTableViewController.swift; sourceTree = "<group>"; };
+		3AE2C9811D1C330E00E94284 /* CustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerViewController.swift; sourceTree = "<group>"; };
+		3AE2C9841D1D543D00E94284 /* ServicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
+		3AE2C9861D1D57B400E94284 /* ServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
+		3AE2C9891D1D728F00E94284 /* OrdersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersTableViewController.swift; sourceTree = "<group>"; };
+		3AE2C98B1D1D72A600E94284 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,18 +71,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A47360B1D22D91900D6181A /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				3A36AB441D250B4A00CEDB17 /* ReportTableViewController.swift */,
+			);
+			name = Report;
+			sourceTree = "<group>";
+		};
 		3A4C1D711D0FFE94003D0916 = {
 			isa = PBXGroup;
 			children = (
-				3AD3BF8D1D19617400BE8999 /* CoreDataManager.swift */,
-				3AD3BF7D1D19354900BE8999 /* RowOfOrder+CoreDataProperties.swift */,
-				3AD3BF7E1D19354900BE8999 /* RowOfOrder.swift */,
-				3AD3BF7F1D19354900BE8999 /* Customer+CoreDataProperties.swift */,
-				3AD3BF801D19354900BE8999 /* Customer.swift */,
-				3AD3BF811D19354900BE8999 /* Order+CoreDataProperties.swift */,
-				3AD3BF821D19354900BE8999 /* Order.swift */,
-				3AD3BF831D19354900BE8999 /* Service+CoreDataProperties.swift */,
-				3AD3BF841D19354900BE8999 /* Service.swift */,
 				3A4C1D7C1D0FFE95003D0916 /* core-data-habrahabr-swift */,
 				3A4C1D7B1D0FFE95003D0916 /* Products */,
 			);
@@ -83,8 +98,14 @@
 		3A4C1D7C1D0FFE95003D0916 /* core-data-habrahabr-swift */ = {
 			isa = PBXGroup;
 			children = (
+				3A47360B1D22D91900D6181A /* Report */,
+				3AE2C9881D1D727600E94284 /* Order */,
+				3AE2C9831D1D540800E94284 /* Service */,
+				3AE2C9801D1C305900E94284 /* Customer */,
+				3AE2C97D1D1BEC5400E94284 /* Core Data */,
 				3A4C1D7D1D0FFE95003D0916 /* AppDelegate.swift */,
 				3A4C1D7F1D0FFE95003D0916 /* ViewController.swift */,
+				3AD3BF8D1D19617400BE8999 /* CoreDataManager.swift */,
 				3A4C1D811D0FFE95003D0916 /* Main.storyboard */,
 				3A4C1D871D0FFE95003D0916 /* Assets.xcassets */,
 				3A4C1D891D0FFE95003D0916 /* LaunchScreen.storyboard */,
@@ -92,6 +113,49 @@
 				3A4C1D841D0FFE95003D0916 /* core_data_habrahabr_swift.xcdatamodeld */,
 			);
 			path = "core-data-habrahabr-swift";
+			sourceTree = "<group>";
+		};
+		3AE2C97D1D1BEC5400E94284 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				3AD3BF7D1D19354900BE8999 /* RowOfOrder+CoreDataProperties.swift */,
+				3AD3BF7E1D19354900BE8999 /* RowOfOrder.swift */,
+				3AD3BF7F1D19354900BE8999 /* Customer+CoreDataProperties.swift */,
+				3AD3BF801D19354900BE8999 /* Customer.swift */,
+				3AD3BF811D19354900BE8999 /* Order+CoreDataProperties.swift */,
+				3AD3BF821D19354900BE8999 /* Order.swift */,
+				3AD3BF831D19354900BE8999 /* Service+CoreDataProperties.swift */,
+				3AD3BF841D19354900BE8999 /* Service.swift */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		3AE2C9801D1C305900E94284 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				3AE2C97E1D1C04F300E94284 /* CustomersTableViewController.swift */,
+				3AE2C9811D1C330E00E94284 /* CustomerViewController.swift */,
+			);
+			name = Customer;
+			sourceTree = "<group>";
+		};
+		3AE2C9831D1D540800E94284 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3AE2C9841D1D543D00E94284 /* ServicesTableViewController.swift */,
+				3AE2C9861D1D57B400E94284 /* ServiceViewController.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		3AE2C9881D1D727600E94284 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				3AE2C9891D1D728F00E94284 /* OrdersTableViewController.swift */,
+				3AB31F9D1D229DC6009950F3 /* RowOfOrderViewController.swift */,
+				3AE2C98B1D1D72A600E94284 /* OrderViewController.swift */,
+			);
+			name = Order;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,17 +231,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AD3BF891D19354900BE8999 /* Order+CoreDataProperties.swift in Sources */,
+				3A36AB451D250B4A00CEDB17 /* ReportTableViewController.swift in Sources */,
 				3A4C1D801D0FFE95003D0916 /* ViewController.swift in Sources */,
 				3AD3BF881D19354900BE8999 /* Customer.swift in Sources */,
 				3AD3BF8A1D19354900BE8999 /* Order.swift in Sources */,
+				3AE2C9851D1D543D00E94284 /* ServicesTableViewController.swift in Sources */,
 				3A4C1D861D0FFE95003D0916 /* core_data_habrahabr_swift.xcdatamodeld in Sources */,
+				3AE2C9871D1D57B400E94284 /* ServiceViewController.swift in Sources */,
 				3AD3BF851D19354900BE8999 /* RowOfOrder+CoreDataProperties.swift in Sources */,
+				3AB31F9E1D229DC7009950F3 /* RowOfOrderViewController.swift in Sources */,
+				3AE2C9821D1C330E00E94284 /* CustomerViewController.swift in Sources */,
+				3AE2C97F1D1C04F400E94284 /* CustomersTableViewController.swift in Sources */,
 				3AD3BF8E1D19617400BE8999 /* CoreDataManager.swift in Sources */,
 				3AD3BF8B1D19354900BE8999 /* Service+CoreDataProperties.swift in Sources */,
 				3A4C1D7E1D0FFE95003D0916 /* AppDelegate.swift in Sources */,
 				3AD3BF8C1D19354900BE8999 /* Service.swift in Sources */,
 				3AD3BF861D19354900BE8999 /* RowOfOrder.swift in Sources */,
 				3AD3BF871D19354900BE8999 /* Customer+CoreDataProperties.swift in Sources */,
+				3AE2C98A1D1D728F00E94284 /* OrdersTableViewController.swift in Sources */,
+				3AE2C98C1D1D72A600E94284 /* OrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
